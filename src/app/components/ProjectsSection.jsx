@@ -8,12 +8,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Social Media Apllication",
+    title: "Social Media Application",
     description: "A complete social media application with beautiful UI.",
     image: "/images/social.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/brave-aditya/social",
+    previewUrl: "https://social-umber.vercel.app/",
   },
   {
     id: 2,
@@ -30,8 +30,8 @@ const projectsData = [
     description: "A beautiful memory from our childhood reimagined into a website.",
     image: "/images/snake.png",
     tag: ["All", "Games"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/brave-aditya/snake",
+    previewUrl: "https://snake-omega-tan.vercel.app/",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const projectsData = [
     image: "/images/weather.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://brave-aditya.github.io/weather/",
   },
   {
     id: 5,

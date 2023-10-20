@@ -40,8 +40,8 @@ const Herosection = () => {
               Contact Me
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#ff0039] via-[#fc00ff] to-[#ff0039] hover:bg-slate-800 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2"><a href="/Adityacv.pdf" download={true}>
+                Download CV</a>
               </span>
             </button>
           </div>
