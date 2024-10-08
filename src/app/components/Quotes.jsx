@@ -8,9 +8,10 @@ const Quotes = () => {
 
   useEffect(() => {
     axios
-      .get("https://api.quotable.io/random")
+      .get("https://quotes-api-self.vercel.app/quote")
       .then((response) => {
         setQuote(response.data);
+        console.log(response.data);
       })
       .catch((error) => console.log(error));
   }, []);
@@ -27,7 +28,7 @@ const Quotes = () => {
             <p className="text-center text-xl">
                <TypeAnimation
               sequence={[
-                `'${quote.content}'`,
+                `'${quote.quote}'`,
                 1000,
               ]}
               wrapper="span"

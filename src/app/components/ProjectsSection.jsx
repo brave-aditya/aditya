@@ -21,8 +21,8 @@ const projectsData = [
     description: "An application for chatting where users can add other people into chatrooms and chat simultaneously.",
     image: "/images/chat.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/brave-aditya/chat",
+    previewUrl: "https://chat-ochre-zeta.vercel.app/",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const projectsData = [
     description: "A complete weather application to check before travelling anywhere.",
     image: "/images/weather.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/brave-aditya/weather",
     previewUrl: "https://brave-aditya.github.io/weather/",
   },
   {
